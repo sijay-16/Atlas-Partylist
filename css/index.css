@@ -100,6 +100,7 @@ body {
 .member {
   width: 100%;
   height: 100px;
+  position: relative;
   overflow: hidden;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -109,5 +110,44 @@ body {
 .profile {
   width: 100px;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
   background-color: grey;
+}
+
+.name {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  z-index: 2;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Times New Roman;
+}
+
+.position {
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  z-index: 2;
+  color: #3350f6;
+  font-size: 1.5rem;
+  font-family: Sans-Serif;
+}
+
+.raquel {
+  background-image: url('/src/raquel.jpg');
+  background-size: cover;
+}
+
+.alexa {
+  background-image: url('/src/alexa.jpg');
+  background-size: cover;
+}
+
+.daniela {
+  background-image: url('/src/daniela.jpg');
+  background-size: cover;
 }
