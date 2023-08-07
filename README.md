@@ -1,6 +1,6 @@
 # Atlas-Partylist
 
-![Project Logo](https://www.google.com)
+.[Project Logo](https://www.google.com)
 
 Atlas-Partylist is a [brief description of your project].
 
